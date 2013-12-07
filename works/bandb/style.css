@@ -1,0 +1,155 @@
+/*　ページ全般に関する記述　*/
+body{
+	background:#fff url(back.jpg) repeat-y fixed top center;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 10pt;
+	line-height:6mm;
+	color: #423935;
+}
+
+a{	
+	color:#423935;
+	font-weight:bold;
+}
+a:active{
+	color:#958275;
+	text-decoration:none;
+	font-weight:bold;
+}
+a:visited{
+	color:#423935;
+	font-weight:bold;
+}
+a:hover{
+	color:#958275;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+h1{
+	display:none;
+}
+h2{
+	display:none;
+}
+h3{
+	font-size:11pt;
+	font-weight:bold;
+}
+h4{
+	margin-bottom:-10px;
+}
+hr{
+	border:#958275 0.5px dotted;
+}
+.bold{
+	font-weight:bold;
+}
+
+/* ページを構成するボックスに関する記述　*/
+#content{
+	width:1000px;
+	height:580px;
+	position:absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -512px;
+    margin-top: -290px;
+}
+#title{
+	width:660px;
+	height:50px;
+	float:left;
+}
+
+#menu{
+	padding-top:15px;
+	height:50px;
+}
+li{
+	display: inline;
+	margin-left:10px;
+}
+
+/* 各コンテンツに関する記述　*/
+#top{
+	width:510px;
+	margin-top:40px;
+	margin-left:400px;
+}
+p{
+	margin-bottom:30px;
+}
+.portfolio{
+	width:600px;
+	margin-top:50px;
+	margin-left:200px;
+}
+p img{
+	border:#958275 1px solid;
+	margin-bottom:10px;
+}
+.new img{
+	border: #C00 1px solid;
+	margin-bottom:10px;
+}
+#contact{
+	width:840px;
+	margin:30px auto 0px;
+}
+#mail{
+	width:400px;
+	height:400px;
+}
+#link{
+	width:400px;
+	height:400px;
+	float:right;
+	margin-top:-15px;
+}
+.copy{
+	text-align:right;
+	font-size: 9pt;
+}
+
+/* 横スクロールに関する記述　*/
+#scroll{
+	position: relative;
+	width: 1000px;
+	height: 530px;
+	margin: 0;
+	overflow: hidden;
+	margin-left:auto;
+	margin-right:auto;
+    border:#958275 dotted 1px;
+}
+
+#flex{
+	position: relative;
+	width: 2300px;
+	height:1800px;
+}
+
+div
+.pages{
+	width: 1000px;
+	height:530px;
+	overflow: auto;
+	float:left;
+	background:no-repeat left top fixed;
+}
+.pages2{
+	width: 1000px;
+	height:530px;
+	overflow: auto;
+	background:no-repeat left top fixed;
+}
+
+
+
+
+
+
+
+
+

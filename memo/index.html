@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=0.5,minimum-scale=0.5, maximum-scale=0.5, user-scalable=yes">
+
+<title>memo</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<section id="memo_wrapper">
+
+	<!-- メモホーム画面 -->
+    <section id="memo_home">
+	    <header>
+	    	<button id="btn_reload">更新</button>
+	        <button id="btn_new">新規登録</button>
+	    </header>
+
+	    <!-- メモ一覧 -->
+	    <section id="memo_main">
+	        <ul id="memo_list"></ul>
+	    </section>
+    </section>
+
+    <!-- マスク -->
+    <div id="mask" style="display:none;"></div>
+
+    <!-- メモ編集画面 -->
+    <section id="memo_edit" style="display:none;">
+        <div id="edit_box">
+            <input type="text" id="edit_title" value="no-title"><br>
+            <textarea id="edit_body">memo</textarea>
+        </div>
+        <div id="edit_buttons" data-memoId="0">
+            <button id="btn_editCancel">キャンセル</button>
+            <button id="btn_post">保存</button>
+        </div>
+    </section>
+
+    <!-- メモ削除確認画面 -->
+    <section id="memo_confirm" style="display:none;">
+        <div id="confirm_box">
+            <p>この記事を削除してもいいですか？</p>
+            <div id="confirm_buttons" data-memoId="">
+                <button id="btn_doDelet">削除</button>
+                <button id="btn_deletCancel">キャンセル</button>
+            </div>
+        </div>
+    </section>
+
+</section>
+
+<script type="text/javascript" src="memo.js"></script>
+</body>
+</html>

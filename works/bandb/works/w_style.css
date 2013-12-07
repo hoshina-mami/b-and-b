@@ -1,0 +1,84 @@
+/*　ページ全般に関する記述　*/
+body{
+	background:#fff url(../back.jpg) repeat-y fixed top center;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 10pt;
+	line-height:6mm;
+	color: #423935;
+}
+a{	
+	color:#423935;
+	font-weight:bold;
+}
+a:active{
+	color:#958275;
+	text-decoration:none;
+	font-weight:bold;
+}
+a:visited{
+	color:#423935;
+	text-decoration:none;
+	font-weight:bold;
+}
+a:hover{
+	color:#958275;
+	text-decoration:none;
+	font-weight:bold;
+}
+h1{
+	display:none;
+}
+h2{
+	font-size:14pt;
+	float:left;
+}
+h2 img{
+	border:0px;
+}
+hr{
+	border:#958275 0.5px dotted;
+	margin-bottom:20px;
+}
+img{
+	border:#958275 1px solid;
+}
+
+
+/* ページを構成するボックスに関する記述　*/
+#content{
+	width:1024px;
+	margin:15px auto 0px;
+}
+#title{
+	float:left;
+}
+#visit{
+	padding-top:15px;
+	padding-right:40px;
+	text-align:right;
+}
+.detail{
+	width:375px;
+	margin-right:25px;
+	float:left;
+}
+.detail2{
+	width:375px;
+	margin-top:47px;
+}
+dl dd{
+    margin-left: 8em;
+    margin-top:-1.5em;
+    margin-bottom:1em;
+}
+.clear{
+	clear:left;
+	margin-top:20px;
+}
+.small{
+	font-size:8pt;
+}
+.center{
+	margin-top:70px;
+	text-align:center;
+}

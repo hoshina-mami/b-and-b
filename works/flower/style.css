@@ -1,0 +1,16 @@
+@charset "shift_jis";
+/* CSS Document */
+body{
+  margin-right:0px;
+  margin-left:0px;
+}
+#main{
+  position:absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -512px;
+  margin-top: -330px;
+}
+h1{
+  display:none;
+}

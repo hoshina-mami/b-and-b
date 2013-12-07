@@ -1,0 +1,93 @@
+/****************************************************/
+/* 早帰りDay決めあみだくじ */
+/****************************************************/
+
+#lots_header{
+	width:800px;
+	height:35px;
+	margin:20px auto;
+	background:url(../images/lots_title_g.png) no-repeat center center;
+	text-indent: -9999px;
+}
+
+
+/* あみだくじ選択ボタン --------------------------------*/
+#lots_select{
+	width:760px;
+	height:40px;
+	margin:0 auto 10px;
+	position:relative;
+}
+
+.lots_selectBtn{
+	width:40px;
+	height:40px;
+	position:absolute;
+	border-radius: 20px;
+}
+
+#sb1{ left:0; background:#E95413; }/*233,84,19*/
+#sb2{ left:180px; background:#00A0E8; }/*0,160,232*/
+#sb3{ left:360px; background:#E50012; }/*229,0,18*/
+#sb4{ left:540px; background:#009139; }/*0,145,57*/
+#sb5{ left:720px; background:#F7B52C; }/*247,181,44*/
+
+
+/* あみだくじ本体 --------------------------------*/
+#lots_main{
+	width:730px;
+	height:420px;
+	margin:0 auto;
+	position:relative;
+}
+
+#lots_main canvas{
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+#lots_main canvas#lots_point{
+	left: -10px;
+}
+
+#mask{
+	width: 760px;
+	height: 400px;
+	top: 10px;
+	left: -15px;
+	background: #999 url(../images/push_start.png) no-repeat center center;
+	position: absolute;
+	text-indent: -9999px;
+	border-radius: 10px;
+}
+
+
+/* あみだくじ結果 --------------------------------*/
+#lots_result{
+	width:760px;
+	height:40px;
+	margin:10px auto 0;
+	position:relative;
+	text-indent: -9999px;
+}
+
+.lots_resultBtn{
+	width:40px;
+	height:40px;
+	position:absolute;
+	background-size: 50px;
+}
+
+#resultBtn_1{ left:0; }
+#resultBtn_2{ left:180px; }
+#resultBtn_3{ left:360px; }
+#resultBtn_4{ left:540px; }
+#resultBtn_5{ left:720px; }
+
+/* 曜日表示用クラス */
+.Mon{ background:url(../images/lots_mon_g.png) no-repeat; }
+.Tue{ background:url(../images/lots_tue_g.png) no-repeat; }
+.Wed{ background:url(../images/lots_wed_g.png) no-repeat; }
+.Thu{ background:url(../images/lots_thu_g.png) no-repeat; }
+.Fri{ background:url(../images/lots_fri_g.png) no-repeat; }

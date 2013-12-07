@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<title>あみだくじ</title>
+
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+<link href="css/lots2.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://code.createjs.com/easeljs-0.5.0.min.js"></script>
+<script type="text/javascript" src="http://code.createjs.com/tweenjs-0.3.0.min.js"></script>
+<script type="text/javascript" src="js/lots2.js"></script>
+</head>
+
+<body>
+    <header id="lots_header">
+        <h1>あみだくじ</h1>
+    </header>
+
+    <!-- あみだくじ選択ボタン -->
+    <section id="lots_select">
+    	<div id="sb1" class="lots_selectBtn"></div>
+        <div id="sb2" class="lots_selectBtn"></div>
+        <div id="sb3" class="lots_selectBtn"></div>
+        <div id="sb4" class="lots_selectBtn"></div>
+        <div id="sb5" class="lots_selectBtn"></div>
+    </section>
+    <!-- あみだくじの線 -->
+    <section id="lots_main">
+        <canvas id="lots_body" width="730" height="420"></canvas>
+        <canvas id="lots_point" width="750" height="440"></canvas>
+        <div id="mask">push start!</div>
+    </section>
+    <!-- あみだくじ結果 -->
+    <section id="lots_result">
+    	<div id="resultBtn_1" class="lots_resultBtn Mon">月</div>
+        <div id="resultBtn_2" class="lots_resultBtn Tue">火</div>
+        <div id="resultBtn_3" class="lots_resultBtn Wed">水</div>
+        <div id="resultBtn_4" class="lots_resultBtn Thu">木</div>
+        <div id="resultBtn_5" class="lots_resultBtn Fri">金</div>
+    </section>
+
+</body>
+</html>

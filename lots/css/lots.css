@@ -1,0 +1,184 @@
+/****************************************************/
+/* 早帰りDay決めあみだくじ */
+/****************************************************/
+
+#lots_header{
+	width:800px;
+	height:35px;
+	margin:20px auto;
+	background:url(../images/lots_title.png) no-repeat center center;
+	text-indent: -9999px;
+}
+
+
+/* あみだくじ選択ボタン --------------------------------*/
+#lots_select{
+	width:760px;
+	height:40px;
+	margin:0 auto 10px;
+	position:relative;
+}
+
+.lots_selectBtn{
+	width:40px;
+	height:40px;
+	background:#CC0000;
+	position:absolute;
+	border-radius: 10px;
+}
+
+#sb1{ left:0; }
+#sb2{ left:180px; }
+#sb3{ left:360px; }
+#sb4{ left:540px; }
+#sb5{ left:720px; }
+
+
+/* あみだくじの線 --------------------------------*/
+#lots_main{
+	width:725px;
+	height:420px;
+	margin:0 auto;
+	position:relative;
+}
+
+
+/* 縦線 */
+.lots_bar{
+	width:5px;
+	height:420px;
+	background:#999;
+	position:absolute;
+}
+
+#bar_1{ left:0; }
+#bar_2{ left:180px; }
+#bar_3{ left:360px; }
+#bar_4{ left:540px; }
+#bar_5{ left:720px; }
+
+
+/* 横線 */
+.lots_cross{
+	width:180px;
+	height:5px;
+	background:#999;
+	position:absolute;
+	z-index: 2;
+	display: none;
+}
+
+#cross_1{ top:80px; left:0; }
+#cross_2{ top:145px; left:0; }
+#cross_3{ top:210px; left:0; }
+#cross_4{ top:275px; left:0; }
+#cross_5{ top:340px; left:0px; }
+#cross_6{ top:112px; left:180px; }
+#cross_7{ top:177px; left:180px; }
+#cross_8{ top:242px; left:180px; }
+#cross_9{ top:307px; left:180px; }
+#cross_10{ top:80px; left:360px; }
+#cross_11{ top:145px; left:360px; }
+#cross_12{ top:210px; left:360px; }
+#cross_13{ top:275px; left:360px; }
+#cross_14{ top:340px; left:360px; }
+#cross_15{ top:112px; left:540px; }
+#cross_16{ top:177px; left:540px; }
+#cross_17{ top:242px; left:540px; }
+#cross_18{ top:307px; left:540px; }
+
+
+/* 横線表示用クラス */
+.on{
+	display:block;
+}
+
+.off{
+	display:none;
+}
+
+
+/* ルートを辿る赤線--------------------------------*/
+/* 縦線 */
+.lots_line_bar{
+	display: none;
+	width:5px;
+	height:5px;
+	background:#C00;
+	position:absolute;
+}
+
+#line_sb1{ top:0px; left:0; }
+#line_sb2{ top:0px;left:180px; }
+#line_sb3{ top:0px;left:360px; }
+#line_sb4{ top:0px;left:540px; }
+#line_sb5{ top:0px;left:720px; }
+
+/* 横線 */
+.lots_line_cross{
+	display: none;
+	width:185px;
+	height:5px;
+	background:#C00;
+	position:absolute;
+	z-index: 1;
+}
+
+#line_cross_1{ top:80px; left:0; }
+#line_cross_2{ top:145px; left:0; }
+#line_cross_3{ top:210px; left:0; }
+#line_cross_4{ top:275px; left:0; }
+#line_cross_5{ top:340px; left:0px; }
+#line_cross_6{ top:112px; left:180px; }
+#line_cross_7{ top:177px; left:180px; }
+#line_cross_8{ top:242px; left:180px; }
+#line_cross_9{ top:307px; left:180px; }
+#line_cross_10{ top:80px; left:360px; }
+#line_cross_11{ top:145px; left:360px; }
+#line_cross_12{ top:210px; left:360px; }
+#line_cross_13{ top:275px; left:360px; }
+#line_cross_14{ top:340px; left:360px; }
+#line_cross_15{ top:112px; left:540px; }
+#line_cross_16{ top:177px; left:540px; }
+#line_cross_17{ top:242px; left:540px; }
+#line_cross_18{ top:307px; left:540px; }
+
+
+/* あみだくじ結果 --------------------------------*/
+#lots_result{
+	width:760px;
+	height:40px;
+	margin:10px auto 0;
+	position:relative;
+}
+
+.lots_resultBtn{
+	width:40px;
+	height:40px;
+	position:absolute;
+	background-size: 50px;
+}
+
+#resultBtn_1{ left:0; }
+#resultBtn_2{ left:180px; }
+#resultBtn_3{ left:360px; }
+#resultBtn_4{ left:540px; }
+#resultBtn_5{ left:720px; }
+
+/* 曜日表示用クラス */
+.Mon{ background:url(../images/lots_mon.png) no-repeat; }
+.Tue{ background:url(../images/lots_tue.png) no-repeat; }
+.Wed{ background:url(../images/lots_wed.png) no-repeat; }
+.Thu{ background:url(../images/lots_thu.png) no-repeat; }
+.Fri{ background:url(../images/lots_fri.png) no-repeat; }
+
+/* 曜日を隠す */
+.lots_resultBtn p{
+	width: 100%;
+	height: 100%;
+	background: #999;
+	background-image:url(../images/lots_cover.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	border-radius: 10px;
+}

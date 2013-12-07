@@ -1,0 +1,83 @@
+html,body{ height:100%;}
+
+body{
+	font-size:14px;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	line-height:2em;
+	background:url(../img/back.png) repeat-y fixed center;
+}
+
+a{ text-decoration:none; color:#000; }
+a:active{ color:#B00C10;}
+a:visited{ color:#353535;}
+a:hover{ color:#B00C10;}
+hr{ width:940px; height: 1px; border: none; border-top:1px #C1272D dashed;}
+
+h1{ margin:0 0 5px -2px; padding-top:40px; font-size:38px; font-family:"Century Gothic"; color:#B00C10; font-weight:normal;}
+h2{ font-size:14px; color:#333; font-weight:normal; padding-top:5px; }
+h3{ color:#B00C10; font-size:16px; margin:15px 0 10px 0; }
+h4{ color:#000; font-size:14px; background:url(../img/icon3.jpg) no-repeat 1px 1px; padding-left:27px; margin-bottom:0; }
+
+article ul{list-style:none; padding:0;}
+
+footer{ font-size:12px; color:#333; text-align:right;}
+
+
+/* 各ボックス */
+#wrapper{
+	width:1000px;
+	margin:0 auto;
+	background-color: #fff;
+	/*background:#FFF url(../img/sheep.jpg) right top no-repeat;*/
+}
+
+.content{ width:900px; margin:0 auto 10px auto; overflow: hidden; }
+.content h1 a{ color:#B00C10;}
+
+#lastup{
+	width:900px;
+	font-size:13px;
+	line-height:1.5em;
+	margin:0 auto 20px auto;
+	color: #666;
+}
+
+#webworks{ width:600px; float:left; }
+#webworks a{ background:none; padding:0; }
+#webworks li{ float:left; margin:2px 10px 0 0;}
+#webworks img{ border:1px solid #E6A9AB; }
+
+#otherworks{ width:300px; margin-left:600px; }
+#otherworks li{ float:left; margin:2px 0 0 10px;}
+#otherworks a{ background:none; padding:0; }
+#otherworks img{ border:1px solid #E6A9AB; }
+
+#works img{ margin-bottom:20px; }
+#works a{ text-decoration:none; color:#000;  background:url(../img/icon5.jpg) no-repeat 2px 1px; padding-left:13px; }
+#works a:active{ color:#B00C10; background:url(../img/icon4.jpg) no-repeat 2px 1px; padding-left:13px;  }
+#works a:visited{ color:#353535; background:url(../img/icon5.jpg) no-repeat 2px 1px; padding-left:13px;  }
+#works a:hover{ color:#000; background:url(../img/icon4.jpg) no-repeat 2px 1px; padding-left:13px; }
+#detail{ margin-left:620px; }
+#detail a{font-weight:bold; }
+#detail dl{ margin-bottom:20px; }
+#detail dt{ color:#B00C10; font-weight:bold; padding:0;}
+#detail dd{ margin:0 0 10px 2px; }
+
+#about { background:url(../img/star.jpg) no-repeat right bottom; }
+#about p{ margin-left:320px; margin-bottom:25px; }
+
+
+/* 装飾・レイアウト */
+.left{ float:left; }
+.clear{ clear:both; }
+
+.back{ text-align:right; width:100%; }
+.back a{ text-decoration:none; color:#000;  background:url(../img/icon5.jpg) no-repeat 2px 1px; padding-left:13px; }
+.back a:active{ color:#B00C10; background:url(../img/icon4.jpg) no-repeat 2px 1px; padding-left:13px;  }
+.back a:visited{ color:#353535; background:url(../img/icon5.jpg) no-repeat 2px 1px; padding-left:13px;  }
+.back a:hover{ color:#000; background:url(../img/icon4.jpg) no-repeat 2px 1px; padding-left:13px; }
+
+.up{ margin-top:-25px; margin-bottom:20px; }
+.center{ width:100%; text-align:center;}
+.small{ font-size:11px; }
+.link_sub{ font-size:13px; color:#000; font-weight:normal;}
